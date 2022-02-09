@@ -32,7 +32,7 @@ Now backend it's running on http://localhost:4000.
 
 You can  find documentation of endpoints on http://localhost:4000/documentation which is powered with [Swagger](https://swagger.io/)
 ## Run The Frontend
-Frontend build with NuxtJs framework.
+Frontend built with NuxtJs framework.
 ```bash
 # change directory to front-end app
 cd app
