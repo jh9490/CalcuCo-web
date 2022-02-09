@@ -53,7 +53,7 @@ inside app folder run the following commands to build  docker image and run cont
 docker build -t calcuco .
 docker run -it -p 3000:3000 calcuco
 ```
-also inside api folder run commands to build  docker image and run container for frontend
+also inside api folder run commands to build  docker image and run container for backend
 ```
 docker build -t calcuco-api .
 docker run -it -p 4000:4000 calcuco-api
