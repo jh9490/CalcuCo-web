@@ -8,7 +8,6 @@ export class OperationsController {
     }
 
     public evaluate(req, res){
-        console.log(req.body);
       let exp = req.body.expression ; 
       const node = mathjs.parse(exp);
         const code = node.compile();

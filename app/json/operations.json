@@ -1,0 +1,10 @@
+[
+   {"key" : "+" , "title" : "+"},
+   {"key" : "-" , "title" : "-"},
+   {"key" : "/" , "title" : "/"},
+   {"key" : "*" , "title" : "*"},
+   {"key" : "sqrt" , "title" : "Sqrt"},
+   {"key" : "^" , "title" : "Power"},
+   {"key" : "c" , "title" : "Clear"},
+   {"key" : "ca" , "title" : "Clear All"}
+]

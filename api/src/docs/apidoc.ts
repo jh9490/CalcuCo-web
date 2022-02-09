@@ -1,4 +1,6 @@
 import  {hello} from './hello';
+import  {calc}  from './calc';
+import  {calcRequestBody}  from './calc';
 const apiDocumentation = {
     openapi: '3.0.1',
     info: {
@@ -18,7 +20,7 @@ const apiDocumentation = {
     },
     servers: [
       {
-        url: 'http://localhost:3000/',
+        url: 'http://localhost:4000/',
         description: 'Local Server',
       },
     ],
@@ -31,10 +33,13 @@ const apiDocumentation = {
       '/': {
         get: hello,
       },
+      '/calc': {
+        post: calc,
+      },
     },
     components: {
       schemas: {
-       
+        calcRequestBody
       },
     },
   };
