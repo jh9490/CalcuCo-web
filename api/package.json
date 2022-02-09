@@ -4,7 +4,8 @@
   "description": "Backend System For CalcuCo",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc",
+    "start": "NODE_PATH=./build node build/index.js",
+    "build": "tsc -p .",
     "dev": "tsc --watch & nodemon src/index.ts",
     "test": "tsc && mocha dist/**/*.spec.js",
     "lint": "eslint src --ext ts",
