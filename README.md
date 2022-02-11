@@ -5,7 +5,9 @@ basic mathematical operations addition, subtraction, multiplication, division, S
 
 ## Local Environment
 1- Java version 17
+
 2- NodeJs version 16.13.2 
+
 2- Docker
 
 
