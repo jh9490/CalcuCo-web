@@ -2,9 +2,9 @@
    {"key" : "+" , "title" : "+"},
    {"key" : "-" , "title" : "-"},
    {"key" : "/" , "title" : "/"},
-   {"key" : "*" , "title" : "*"},
-   {"key" : "sqrt" , "title" : "Sqrt"},
-   {"key" : "^" , "title" : "Power"},
-   {"key" : "c" , "title" : "Clear"},
-   {"key" : "ca" , "title" : "Clear All"}
+   {"key" : "*" , "title" : "&#215;"},
+   {"key" : "sqrt" , "title" : "&#8730;"},
+   {"key" : "^" , "title" : "^"},
+   {"key" : "%" , "title" : "%"},
+   {"key" : "c" , "title" : "c"}
 ]

@@ -2,17 +2,17 @@ package com.calcuco.app.models;
 
 public class ExpressionResponse {
     
-   private String result; 
+   private Double result; 
 
-   public  ExpressionResponse(String result){
+   public  ExpressionResponse(Double result){
       this.result = result;
    }
 
-   public String getResult() {
+   public Double getResult() {
        return result;
    }
 
-   public void setResult(String result) {
+   public void setResult(Double result) {
        this.result = result;
    }
 }

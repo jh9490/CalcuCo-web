@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.calcuco</groupId>
 	<artifactId>app</artifactId>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>app</name>
 	<description>CalcuCo Backend System</description>
@@ -26,6 +27,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.objecthunter</groupId>
+			<artifactId>exp4j</artifactId>
+			<version>0.4.8</version>
 		</dependency>
 	</dependencies>
 	<build>

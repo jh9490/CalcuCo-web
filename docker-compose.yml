@@ -1,20 +1,13 @@
-version: '3.7'
+version: '3'
 services:
   calcuco:
-    image: calcuco
-    build:
-      context: .
-      dockerfile: ./app/DockerFile
+    image: calcuco:latest
     environment:
       PORT: 3000
-      PROXY_API: http://calcuco-api:4000/
+      PROXY_API: http://calcuco-api:8080/
     ports:
       - 3000:3000
   calcuco-api:
-    image: calcuco-api
-    build:
-      context: .
-      dockerfile: ./api/DockerFile
-      target: base
+    image: calcuco-api:latest
     ports:
-      - 4000:4000
+      - 8080:8080

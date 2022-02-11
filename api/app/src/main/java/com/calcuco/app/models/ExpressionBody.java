@@ -2,13 +2,13 @@ package com.calcuco.app.models;
 
 public class ExpressionBody{
     
-     private String expressString;
+     private String expressionString;
       
      public String getExpressString(){
-          return this.expressString;
+          return this.expressionString;
      } 
 
      public void setExpressionString(String expressionString) {
-         this.expressString = expressionString;
+         this.expressionString = expressionString;
      }
 }
